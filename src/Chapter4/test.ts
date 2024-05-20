@@ -1,15 +1,15 @@
-function map<T,U>(array: T[], callback: (item:T)=>U): U[] {
-  let ret:Array<U> = [];
-  for(const elem of array){
-    ret.push(callback(elem));
-  }
-  return ret;
-}
-const data = [1, -3, -2, 8, 0, -1];
+// function map<T,U>(array: T[], callback: (item:T)=>U): U[] {
+//   let ret:Array<U> = [];
+//   for(const elem of array){
+//     ret.push(callback(elem));
+//   }
+//   return ret;
+// }
+// const data = [1, -3, -2, 8, 0, -1];
 
-const result: boolean[] = map(data, (x) => x >= 0);
-// [true, false, false, true, true, false] と表示される
-console.log(result);
+// const result: boolean[] = map(data, (x) => x >= 0);
+// // [true, false, false, true, true, false] と表示される
+// console.log(result);
 
 
 
